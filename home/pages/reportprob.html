@@ -6,10 +6,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="../layout/styles/layout.css" type="text/css" />
 <link rel="stylesheet" href="homepage.css" type="text/css" />
-<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="../layout/scripts/jquery.min.js"></script>
 <!-- Superfish Menu -->
-<script type="text/javascript" src="layout/scripts/superfish/jquery.hoverIntent.js"></script>
-<script type="text/javascript" src="layout/scripts/superfish/superfish.js"></script>
+<script type="text/javascript" src="../layout/scripts/superfish/jquery.hoverIntent.js"></script>
+<script type="text/javascript" src="../layout/scripts/superfish/superfish.js"></script>
 <script type="text/javascript">
 jQuery(function () {
     jQuery('ul.nav').superfish();
@@ -48,18 +48,18 @@ jQuery(function () {
   <div id="topnav">
     <ul class="nav">
       <li class="active"><a href="index.html">Homepage</a></li>
-      <li><a href="../pages/foodblog.html">Food</a></li>
-      <li><a href="../pages/technologyblog.html">Technology</a></li>
-      <li><a href="../pages/travelblog.html">Travel</a></li>
-      <li class="last"><a href="../pages/sports.html">Sports</a></li>
+      <li><a href="pages/foodblog.html">Food</a></li>
+      <li><a href="pages/technologyblog.html">Technology</a></li>
+      <li><a href="pages/travelblog.html">Travel</a></li>
+      <li class="last"><a href="pages/sports.html">Sports</a></li>
       <li><a href="#">Add a new blog</a>
         <ul>
-          <li><a href="../pages/blogcreation/blogcreation-food.html">Food</a></li>
-          <li><a href="../pages/blogcreation/blogcreation-tech.html">Technology</a>
+          <li><a href="pages/blogcreation/blogcreation-food.html">Food</a></li>
+          <li><a href="pages/blogcreation/blogcreation-tech.html">Technology</a>
      
-          <li><a href="../pages/blogcreation/blogcreation-travel.html">Travel</a>
+          <li><a href="pages/blogcreation/blogcreation-travel.html">Travel</a>
             
-          <li><a href="../pages/blogcreation/blogcreation-sports.html">Sports</a></li>
+          <li><a href="pages/blogcreation/blogcreation-sports.html">Sports</a></li>
         </ul>
       </li>
      </ul>
@@ -67,28 +67,33 @@ jQuery(function () {
   </div>
 </div>
 <!-- ####################################################################################################### -->
-<div class="wrapper">
-  <div class="container">
-    <div class="whitebox" id="hpage_services">
-      <div class="block"><img src="http://images.skymetweather.com/themes/skymet/images/gallery/toplists/20-Must-Try-Food-Items-in-Delhi/2.jpg"; width="400" height="200" alt="" /><strong>Food                </strong>
-        <p>Write anything about food:basic intro to the blogs in food</p>
-
+<div class="reports">
+  <h1>Report the problem here</h1>
+          <ul class="commentlist">
+        <div id="respond">
+          <form action="#" method="post">
+            <p>
+              <input type="text" name="name" id="name" value="" size="28" />
+              <label for="name"><small>Name (required)</small></label>
+            </p>
+            <p>
+              <input type="text" name="email" id="email" value="" size="28" />
+              <label for="email"><small>Mail (required)</small></label>
+            </p>
+            <p>
+              <textarea name="comment" id="comment" cols="100%" rows="10"></textarea>
+              <label for="comment" style="display:none;"><small>Comment (required)</small></label>
+            </p>
+            <p>
+              <input name="submit" type="submit" id="submit" value="Submit Form" />
+              &nbsp;
+              <input name="reset" type="reset" id="reset" tabindex="5" value="Reset Form" />
+            </p>
+          </form>
+        </div>
       </div>
-      <div class="block"><img src="http://ta.tekacademy.com/tek/wp-content/uploads/2015/04/tech1.jpg" width="400" height="200" alt="" /><strong>Technology</strong>
-        <p>Write the importance of technology and the rising number of advancements in this field</p>
-      </div>
-    
-      <div class="spacer">&nbsp;</div>
-      <div class="block"><img src="http://weknowyourdreams.com/images/travel/travel-02.jpg" width="400" height="200" alt="" /><strong>Travel</strong>
-        <p>Travel to differnt places and write about your experience here.</p>
-      </div>
-      
-      <div class="block last"><img src="http://www.crossingitaly.net/travel/wp-content/uploads/Football.jpg" width="400" height="200" alt="" /><strong>Sports</strong>
-        <p>Write about the people's growing interest in this field</p>
-      </div>
-      <div class="clear"></div>
-
     </div>
+   </div> 
     <!-- ####################################################################################################### -->
     
 
