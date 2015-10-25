@@ -8,9 +8,9 @@
 <link rel="stylesheet" href="layout.css" type="text/css" />
 <script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
 <!-- Superfish Menu -->
-<script type="text/javascript" src="../../layout/scripts/superfish/jquery.hoverIntent.js"></script>
-<script type="text/javascript" src=../../"layout/scripts/superfish/superfish.js"></script>
-<script type="text/javascript">1
+<script type="text/javascript" src="layout/scripts/superfish/jquery.hoverIntent.js"></script>
+<script type="text/javascript" src="layout/scripts/superfish/superfish.js"></script>
+<script type="text/javascript">
 jQuery(function () {
     jQuery('ul.nav').superfish();
 });
@@ -40,19 +40,20 @@ jQuery(function () {
 <div class="wrapper">
   <div id="topnav">
     <ul class="nav">
-      <li><a href="index.html">Homepage</a></li>
-      <li><a href="foodblog.html">Food</a></li>
-      <li><a href="technologyblog.html">Technology</a></li>
-      <li><a href="travelblog.html">Travel</a></li>
-      <li class="last"><a href="sportsblog.html">Sports</a></li>
+      <li><a href="../../home.html">Homepage</a></li>
+      <li><a href="../foodblog.html">Food</a></li>
+      <li><a href="../technologyblog.html">Technology</a></li>
+      <li><a href="../travelblog.html">Travel</a></li>
+      <li class="last"><a href="../sportsblog.html">Sports</a></li>
+      
       <li><a href="#">Add a new blog</a>
         <ul>
-          <li><a href="#">Food</a></li>
-          <li><a href="#">Technology</a>
+          <li class="active"><a href="blogcreation-food.html">Food</a></li>
+          <li><a href="blogcreation-tech.html">Technology</a>
      
-          <li><a href="#">Travel</a>
+          <li><a href="blogcreation-travel.html">Travel</a>
             
-          <li><a href="#">Sports</a></li>
+          <li><a href="blogcreation-sports.html">Sports</a></li>
         </ul>
       </li>
      </ul>
@@ -126,9 +127,10 @@ jQuery(function () {
     <div class="footbox last">
       <h2>Keep In Touch</h2>
       <ul>
-        <li class="active"><a href="../about.html">About</a></li>
+        <li class="active"><a href="pages/about.html">About</a></li>
+        <li><a href="pages/help.html">Help</a></li>
         <li><a href="pages/contact.html">Contact Us</a></li>
-        <li class="last"><a href="../reportprob.html">Report a Problem</a></li>
+        <li class="last"><a href="#">Report a Problem</a></li>
       </ul>
     </div>
     <br class="clear" />
